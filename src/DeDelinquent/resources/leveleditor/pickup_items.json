@@ -1,0 +1,46 @@
+{
+	"ITEM" : {
+		"FILE" : "../src/DeDelinquent/resources/images/MainObjects/LevelThreeMainMission.jpg",
+		"MAINITEM" : true
+	},
+	"ITEM" : {
+		"FILE" : "../src/DeDelinquent/resources/images/MainObjects/LevelTwoMainMission.jpg",
+		"MAINITEM" : true
+	},
+	"ITEM" : {
+		"FILE" : "../src/DeDelinquent/resources/images/MainObjects/LevelFourMainMission.jpg",
+		"MAINITEM" : true
+	},
+	"ITEM" : {
+		"FILE" : "../src/DeDelinquent/resources/images/MainObjects/LevelOneMainMission.jpg",
+		"MAINITEM" : true
+	},
+	"ITEM" : {
+		"FILE": "../src/DeDelinquent/resources/images/SubObjects/item_7.png",
+		"MAINITEM" : false
+	},
+	"ITEM" : {
+		"FILE": "../src/DeDelinquent/resources/images/SubObjects/item_9.png",
+		"MAINITEM" : false
+	},
+	"ITEM" : {
+		"FILE": "../src/DeDelinquent/resources/images/SubObjects/item_6.png",
+		"MAINITEM" : false
+	},
+	"ITEM" : {
+		"FILE": "../src/DeDelinquent/resources/images/SubObjects/item_1.png",
+		"MAINITEM" : false
+	},
+	"ITEM" : {
+		"FILE": "../src/DeDelinquent/resources/images/SubObjects/item_2.png",
+		"MAINITEM" : false
+	},
+	"ITEM" : {
+		"FILE": "../src/DeDelinquent/resources/images/SubObjects/item_10.png",
+		"MAINITEM" : false
+	},
+	"ITEM" : {
+		"FILE": "../src/DeDelinquent/resources/images/SubObjects/item_8.png",
+		"MAINITEM" : false
+	}
+}

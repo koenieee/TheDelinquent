@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A693459B-137C-435E-A7DC-04059F19E597}</ProjectGuid>
+    <RootNamespace>DeDelinquent</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SOLUTIONDIR)/../deps/rapidjson/include;$(SOLUTIONDIR)/../deps/sfml/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SOLUTIONDIR)/../deps/sfml/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SOLUTIONDIR)/../deps/rapidjson/include;$(SOLUTIONDIR)/../deps/sfml/include;</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SOLUTIONDIR)/../deps/sfml/lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-audio.lib;sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\DeDelinquent\ArtificialIntelligence.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\Grid.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\Node.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\PathFinding.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\AwarenessMeter.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\ControlInfo.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\DiskController.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\DropDownMenu.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\ExitPoint.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\GameElementsExplanation.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\Guard.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\InputController.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\LogicController.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\LevelEditor.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\KeyMap.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\Level.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\HomeBase.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\EndLevel.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\MainMenu.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\GameExplanation.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\Movable.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\PickupItems.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\Player.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\PlayerData.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\ScreenController.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\SoundBar.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\SplashScreen.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\State.cpp" />
+    <ClCompile Include="..\src\DeDelinquent\StateController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\DeDelinquent\ArtificialIntelligence.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\Grid.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\Node.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\PathFinding.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\AwarenessMeter.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\ControlInfo.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\DiskController.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\DropDownMenu.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\ExitPoint.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\GameElementsExplanation.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\GlobalValues.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\Guard.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\IDrawableComponent.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\InputController.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\InputListener.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\KeyMap.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\LogicController.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\LevelEditor.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\Level.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\HomeBase.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\EndLevel.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\MainMenu.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\GameExplanation.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\Movable.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\PickupItems.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\Player.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\PlayerData.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\ScreenController.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\SoundBar.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\SplashScreen.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\State.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\StateController.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\UnpenetrableComponent.hpp" />
+    <ClInclude Include="..\src\DeDelinquent\UpdateableComponent.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

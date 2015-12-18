@@ -1,0 +1,17 @@
+project/Debug/
+project/Release/
+
+*.ini
+*.db
+*.open
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sdf
+*.v12.suo
+*.opensdf
+*.obj
+
+
+

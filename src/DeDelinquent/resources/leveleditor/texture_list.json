@@ -1,0 +1,34 @@
+{ 
+	"WALL"  : {
+		"FILE" : "../src/DeDelinquent/resources/textures/wallie.jpg",	
+		"LAYER" : 5,
+		"COLLISION" : true
+	},
+    "WATER" : {
+		"FILE" : "../src/DeDelinquent/resources/textures/water.jpg",	
+		"LAYER" : 4,
+		"COLLISION" : true
+	},
+    "FLOOR" : {
+		"FILE" : "../src/DeDelinquent/resources/textures/floortiles.jpg",
+		"LAYER" : 0,
+		"COLLISION" : false
+	},
+    "GRASS" : {
+		"FILE" : "../src/DeDelinquent/resources/textures/grass_texture.jpg",
+		"LAYER" : 0,
+		"COLLISION" : false
+	},
+    "FLOORWALL" : {
+		"FILE" : "../src/DeDelinquent/resources/textures/floorwall.jpg",
+		"LAYER" : 0,
+		"COLLISION" : false
+	},
+	"HEDGE" : {
+		"FILE" : "../src/DeDelinquent/resources/textures/hedge.jpg",
+		"LAYER" : 3,
+		"COLLISION" : true
+	}
+	
+	
+}

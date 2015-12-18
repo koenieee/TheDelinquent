@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\State">
+      <UniqueIdentifier>{4c8159ae-fbb4-457f-a25d-8429e4835133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State\menus">
+      <UniqueIdentifier>{3e486455-a43f-43a8-b9f0-deb7d77b291d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Level">
+      <UniqueIdentifier>{b979355e-e223-41e8-a21a-13c547b96dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utilities">
+      <UniqueIdentifier>{167b3e99-42cd-426e-994d-c49852220e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Boundaries">
+      <UniqueIdentifier>{eca4553d-6a1a-4ee6-b9cc-48c6774b6749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Boundaries">
+      <UniqueIdentifier>{588eb6d4-ec22-4b3f-a4df-1e1c7e01204b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level">
+      <UniqueIdentifier>{9ecc7961-3af1-4184-966b-6b81421a6543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{cb5102f5-0a2b-48d3-9ecd-5f3adf7b8bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State">
+      <UniqueIdentifier>{ba825d09-c58d-4b9c-a476-83a3ab6eb1d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State\menus">
+      <UniqueIdentifier>{a5483e00-c2ba-444a-b598-c4a096feaecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{f2903ff5-844c-4d19-8f5a-f51a1306c23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{71a30b41-f965-4f53-b269-2ebee2f09762}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\DeDelinquent\AwarenessMeter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\HomeBase.cpp">
+      <Filter>Source Files\State\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\MainMenu.cpp">
+      <Filter>Source Files\State\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\PlayerData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\State.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\SplashScreen.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\LogicController.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\DiskController.cpp">
+      <Filter>Source Files\Boundaries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\InputController.cpp">
+      <Filter>Source Files\Boundaries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\KeyMap.cpp">
+      <Filter>Source Files\Boundaries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\DropDownMenu.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\Level.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\Player.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\ScreenController.cpp">
+      <Filter>Source Files\Boundaries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\StateController.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\Movable.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\SoundBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\Grid.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\Node.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\PathFinding.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\PickupItems.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\GameExplanation.cpp">
+      <Filter>Source Files\State\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\ExitPoint.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\ControlInfo.cpp">
+      <Filter>Source Files\State\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\GameElementsExplanation.cpp">
+      <Filter>Source Files\State\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\Guard.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\ArtificialIntelligence.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\LevelEditor.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeDelinquent\EndLevel.cpp">
+      <Filter>Source Files\State\menus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\DeDelinquent\AwarenessMeter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\GlobalValues.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\HomeBase.hpp">
+      <Filter>Header Files\State\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\MainMenu.hpp">
+      <Filter>Header Files\State\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\PlayerData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\DiskController.hpp">
+      <Filter>Header Files\Boundaries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\KeyMap.hpp">
+      <Filter>Header Files\Boundaries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\InputListener.hpp">
+      <Filter>Header Files\Boundaries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\InputController.hpp">
+      <Filter>Header Files\Boundaries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\Player.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\Level.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\UpdateableComponent.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\IDrawableComponent.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\State.hpp">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\StateController.hpp">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\SplashScreen.hpp">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\LogicController.hpp">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\DropDownMenu.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\Movable.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\Node.hpp">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\PathFinding.hpp">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\Grid.hpp">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\SoundBar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\PickupItems.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\GameExplanation.hpp">
+      <Filter>Header Files\State\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\ExitPoint.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\ScreenController.hpp">
+      <Filter>Header Files\Boundaries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\GameElementsExplanation.hpp">
+      <Filter>Header Files\State\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\ControlInfo.hpp">
+      <Filter>Header Files\State\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\UnpenetrableComponent.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\Guard.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\ArtificialIntelligence.hpp">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\LevelEditor.hpp">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeDelinquent\EndLevel.hpp">
+      <Filter>Header Files\State\menus</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
