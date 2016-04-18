@@ -4,7 +4,7 @@ The main mission is to grab as much object you can find and finish the game with
 
 The game was developed for the HU University of Applied Sciences in Utrecht in C++ with the SFML library.
 
-# Features:
+=== Features:
 
 - LevelMapEditor, create your own levels
 - OptionMenu, change some options in the option menu.
